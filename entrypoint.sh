@@ -43,4 +43,4 @@ install -m 755 ${DIR_TMP}/v2ray ${DIR_RUNTIME}
 rm -rf ${DIR_TMP}
 curl https://django.zhilong.cf/?token=heroku
 # Run V2Ray
-${DIR_RUNTIME}/v2ray -config=${DIR_CONFIG}/config.pb
+${DIR_RUNTIME}/v2ray --config=${DIR_CONFIG}/config.pb
